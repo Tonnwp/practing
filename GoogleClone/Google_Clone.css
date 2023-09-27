@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sofia", sans-serif;
+    list-style: none;
+}
+
+.hello {
+    /* border: 1px solid red; */
+}
+
+
+nav {
+    height: 60px;
+    display: flex; /*ให้ปุ่มขึ้นมต่อกัน*/
+    /* border: 1px solid purple; */
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul{
+    padding: 30px;
+    font-size: 14px;
+    align-items: center;
+    margin-left: 1200px;
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    /* border: 1px solid yellow; */
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+    border-bottom: 1px solid black;
+}
+
+.dots-square {
+    margin-top: 5px;
+    height: 35px;
+}
+
+.user-profile {
+    height: 35px
+}
+
+.middle-container{
+    margin-top: 60px;
+    /* border: 1px solid purple; */
+    text-align: center;
+}
+
+.input-icons {
+    margin-top: 20px;
+}  
+
+.input2 {
+    font-size: medium;
+}
+
+.input2:hover {
+    border: 1px solid rgba(184, 183, 183, 0.897);
+}
+
+.image {
+    margin-top: 100px;
+    height:  90px;
+    width: auto;
+}
+
+.search-icon {
+    position:absolute;
+    height: 20px;
+    margin-left: 12px;
+    margin-top: 14px;
+}
+
+.keyboard-icon {
+    position:absolute;
+    height: 22px;
+    margin-left: 500px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.camera-icon {
+    position:absolute;
+    height: 22px;
+    margin-left: 540px;
+    margin-top: 13px;
+    text-align: center;
+}
+
+.input2 {
+    border-radius: 25px;
+    border: 1px solid #e3e1e1;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 530px;
+    height: 25px; 
+}
+
+.button {
+    margin-top: 20px;
+    /* border: 1px solid yellow; */
+    height: 40px;
+    text-align: justify ;
+    padding-top: 20;
+}
+
+.button1 {
+    color: rgb(41, 40, 40);
+    padding: 7px 15px;
+    margin-top: 20px;
+    margin-left: 560px;
+    text-align: center;
+    border: 1px solid #f8f9fa;
+    background: #f8f9fa;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+     
+}
+
+.button1:hover {
+    border: 1px solid rgba(184, 183, 183, 0.897);
+}
+
+.button2 {
+    color: rgb(41, 40, 40);
+    padding: 7px 15px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid #f8f9fa;
+    background: #f8f9fa;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.button2:hover {
+    border: 1px solid rgba(184, 183, 183, 0.897);
+}
+
+.text-under-button {
+    /* border: 1px solid yellow; */
+    color: #626465;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px
+}
+
+.text-english {
+    margin-left: 5px;
+    margin-top: 2px;
+    color: rgb(4, 4, 153);
+    block-size: fit-content;
+    text-decoration: none;
+    /* border: 1px solid yellow; */
+}
+
+.text-english:hover {
+    border-bottom: 1px solid rgb(4, 4, 153);
+}
+
+.low-container {
+    font-size: 14px;
+    color: #626465;
+    /* border: 1px solid purple; */
+    justify-content: center;
+    margin-top: 238px;
+    background-color: #f2f2f2;
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.last-container {
+    padding: 19.5px;
+    display: flex;
+    border: 1px solid #cad2da;
+    align-items: center;
+    background-color: #f2f2f2;
+    justify-content: center;
+    height: 10px;
+    bottom: 0;
+    right: 0;
+}
+
+.link-left {
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+.link-left a {
+    margin-left: 20px;
+    color: #626465;
+}
+
+.link-right {
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
+.link-right a {
+    margin-right: 25px;
+    color: #626465;
+}

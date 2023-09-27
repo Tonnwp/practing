@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Parcel Sandbox</title>
+   <meta charset="UTF-8" />
+   <style>
+     h3 {
+       text-align: center;
+       margin: 20px;
+       padding: 20px;
+       border-top: 1px solid black;
+     }
+     div {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       border: 2px solid red;
+     }
+     div > div {
+       max-width: 500px;
+       width: 100%;
+        align-self: center;
+        position: relative;
+        overflow: hidden;
+        border: 2px solid orange;
+     }
+     img {
+       width: 100%;
+     }
+      div.crop-top img {
+       margin: -20% auto 0;
+      }
+      
+      div.crop-bottom img {
+       margin: 0 auto -20%;
+      }
+      
+      div.crop-vertically img {
+        margin: -20% auto -20%;
+      }
+   
+ 
+     div.crop-right img {
+        width: 120%;
+        margin: 0 -20% 0 0;
+     }
+     div.crop-left img {
+       width: 120%;
+       margin: 0 0 0 -20%;
+     }
+     div.crop-left-right img {
+       width: 180%;
+        margin: 0 -20% 0;
+        height: 500px;
+     }
+     div.crop-square img {
+        width: 100%;
+     }
+   </style>
+ </head>
+ 
+ <body>
+   <div id="app">
+     <h3>Normal</h3>
+     <div>
+       <img
+        src="promo_wwdc23.jpg"
+       />
+     </div>
+     <h3>Top Cropped</h3>
+     <div class="crop-top">
+       <img src="promo_wwdc23.jpg"
+       />
+     </div>
+     <h3>Bottom Cropped</h3>
+     <div class="crop-bottom">
+       <img
+        src="promo_wwdc23.jpg"
+       />
+     </div>
+     <h3>Bottom and Top Cropped</h3>
+     <div class="crop-vertically">
+       <img src="promo_wwdc23.jpg"
+       />
+     </div>
+     <h3>Right Cropped</h3>
+     <div class="crop-right">
+       <img src="promo_wwdc23.jpg"
+       />
+     </div>
+     <h3>Left Cropped</h3>
+     <div class="crop-left">
+       <img src="promo_wwdc23.jpg"
+       />
+     </div>
+     <h3>Left and Right Cropped</h3>
+     <div class="crop-left-right">
+       <img
+        src="promo_wwdc23.jpg"
+       />
+     </div>
+     <h3>Square Crop</h3>
+     <div class="crop-square">
+       <img
+        src="promo_wwdc23.jpg"
+       />
+     </div>
+   </div>
+ </body>
+</html>
